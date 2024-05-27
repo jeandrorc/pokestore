@@ -4,7 +4,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeandrorc/pokestore.git"
   },
   "dependencies": {
     "@mdi/font": "6.2.95",
